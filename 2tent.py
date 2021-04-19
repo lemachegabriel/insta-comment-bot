@@ -39,7 +39,7 @@ class InstagramBot:
         password_element.send_keys(Keys.RETURN)
         
         time.sleep(random.randint(3, 5))
-        self.comment("https://www.instagram.com/p/CNqp59YnbK9/")
+        self.comment("")######################add here the link of the post #####################################################################
          
 
     #@staticmethod
@@ -65,5 +65,5 @@ class InstagramBot:
         
 
 
-meurobo = InstagramBot("joaovcnamaral11@gmail.com", "joaovitor12345", "eu quero", 10000)
+meurobo = InstagramBot("email", "password" "comment", 10000)################################################################
 meurobo.login()
